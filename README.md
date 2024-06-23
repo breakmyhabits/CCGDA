@@ -146,7 +146,7 @@ python train/ddc/train.py configs/houston/ddc.yaml ^
 | HyRANK           | PixelDA| softmax+ce                     | -          | l      | 64        | 0.633   | 0.608    |
 
 ## Cite
-<pre><code>
+```
 @article{jiefeng0109,
     title={Class-Aligned and Class-Balancing Generative Domain Adaptation for Hyperspectral Image Classification},
     author={Jie Feng, Ziyu Zhou, Ronghua Shang, Jinjian Wu, Tianshu Zhang, Xiangrong Zhang, Licheng Jiao},
@@ -157,7 +157,7 @@ python train/ddc/train.py configs/houston/ddc.yaml ^
     publisher={IEEE},
     doi={10.1109/TGRS.2024.3367765}
 }
-</code></pre>
+```
 
 ## <a name="license"></a> 许可证
 
