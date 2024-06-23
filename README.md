@@ -2,6 +2,12 @@
 This is our official implementation of CCGDA!
 
 by Jie Feng, Ziyu Zhou, Ronghua Shang, Jinjian Wu, Tianshu Zhang, Xiangrong Zhang, Licheng Jiao
+
+# Introduction
+## Abstract
+The task of hyperspectral image (HSI) classification is fundamental and crucial in HSI processing. Currently, domain adaptive methods have become a research hotspot in HSI classification. However, most domain adaptive methods ignore the class alignment in different domains. Additionally, HSIs have the characteristics of category imbalance and complex spatial–spectral distribution, which restricts the adaptation performance in HSIs. To address these problems, a class-aligned and class-balancing generative domain adaptation (CCGDA) method is proposed for HSI classification. The architecture of CCGDA is designed by using the classifier, domain discriminator, sampler, and two weight-sharing generators. In the classifier, split-level capsule network (CapsNet) is constructed by extracting rich spatial information of shallow layer and spectral features of deep layer with equivariant characteristic. Then, the classifier provides the pseudo-label of samples in the target domain. To prevent the generators from mode collapse caused by category imbalance, the sampler is designed. It samples and resamples the samples of the target domain in an adaptive proportion according to the statistical calculation through confidence and distribution of pseudo-labels. Finally, a novel class-aligned domain adversarial loss is defined to jointly optimize the generators and discriminator. It incorporates the class shift adjusting and adaptive sampling for the samples of the target domain to better adapt the discriminant boundary of the classifier to the target domain. Experiments on benchmark HSI datasets verify the superiority of the proposed method for domain adaptive classification.
+## Fig.1 Flowchart of the proposed method. The framework consists of two generators, a classifier, a discriminator, and a data sampler. CCE refers to the class correlation evaluation, which works in the training process of the second generator.
+
 ## HSI域自适应
 
 ## 目录
