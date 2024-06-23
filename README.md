@@ -12,6 +12,8 @@ The task of hyperspectral image (HSI) classification is fundamental and crucial 
 ![image](https://github.com/breakmyhabits/CCGDA/blob/main/images/0515d5787db2eaf01171199ae5bf3039_4_Figure_2_-1187442696.png)
 ## Fig.3 Structure of domain discriminator and generator.
 ![image](https://github.com/breakmyhabits/CCGDA/blob/main/images/0515d5787db2eaf01171199ae5bf3039_5_Figure_4_-1764685506.png)
+
+For further details, please check out our [paper](https://ieeexplore.ieee.org/document/10440363).
 ## HSI域自适应
 
 ## 目录
@@ -143,6 +145,19 @@ python train/ddc/train.py configs/houston/ddc.yaml ^
 | HyRANK           | DANN   | softmax+ce                     | -          | l      | 64        | 0.633   | 0.608    |
 | HyRANK           | PixelDA| softmax+ce                     | -          | l      | 64        | 0.633   | 0.608    |
 
+## Cite
+<pre><code>
+@article{li2023rs,
+    title={Class-Aligned and Class-Balancing Generative Domain Adaptation for Hyperspectral Image Classification},
+    author={Jie Feng, Ziyu Zhou, Ronghua Shang, Jinjian Wu, Tianshu Zhang, Xiangrong Zhang, Licheng Jiao},
+    journal={TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING},
+    volume={62},
+    pages={1-17},
+    year={2024},
+    publisher={IEEE},
+    doi={10.1109/TGRS.2024.3367765}
+}
+</code></pre>
 
 ## <a name="license"></a> 许可证
 
