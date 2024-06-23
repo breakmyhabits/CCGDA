@@ -147,7 +147,7 @@ python train/ddc/train.py configs/houston/ddc.yaml ^
 
 ## Cite
 <pre><code>
-@article{li2023rs,
+@article{jiefeng0109,
     title={Class-Aligned and Class-Balancing Generative Domain Adaptation for Hyperspectral Image Classification},
     author={Jie Feng, Ziyu Zhou, Ronghua Shang, Jinjian Wu, Tianshu Zhang, Xiangrong Zhang, Licheng Jiao},
     journal={TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING},
