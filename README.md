@@ -1,7 +1,7 @@
-论文题目：Class-Aligned and Class-Balancing Generative Domain Adaptation for Hyperspectral Image Classification.
-IEEE Trans. Geosci. Remote. Sens. 62: 1-17 (2024)
-Jie Feng, Ziyu Zhou, Ronghua Shang, Jinjian Wu, Tianshu Zhang, Xiangrong Zhang, Licheng Jiao:
-# HSI域自适应
+# Class-Aligned and Class-Balancing Generative Domain Adaptation for Hyperspectral Image Classification. [IEEE Trans. Geosci. Remote. Sens. 62: 1-17 (2024)]
+This is our official implementation of CCGDA!
+by Jie Feng, Ziyu Zhou, Ronghua Shang, Jinjian Wu, Tianshu Zhang, Xiangrong Zhang, Licheng Jiao
+## HSI域自适应
 
 ## 目录
 
